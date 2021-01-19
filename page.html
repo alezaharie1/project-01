@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/vizProdus-style.css">
+    <script src="https://kit.fontawesome.com/23ab363e87.js" crossorigin="anonymous"></script>
+	<title>Vizualizare produs</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="containerbttn">
+            <a href="shopping-cart.html">
+                <button class="btn-header"><i class="fas fa-shopping-cart"></i> Cos cumparaturi</button>
+            </a>
+            <a href="admin.html">
+                <button class="btn-header"><i class="fas fa-users-cog"></i> Pagina Administrare</button>
+            </a>
+        </div>
+    </header>
+
+    <a href="index.html" class="previous">
+        &laquo; Inapoi la pagina principala
+    </a>
+    <div id="big div">
+
+        <div id="products">
+            <div id="product-template" class="product">
+                <div class="product-real">
+
+                    <div class='col'>
+                        <img class='product-img' src="" />
+                    </div>
+
+                    <div class='col'>
+                        <p class="product-description"></p>
+                        <p id="product-name" class="product-title"></p>
+
+                        <p class="product-price">
+                            <span class="price"></span>
+                            <span class="currency"></span>
+                        </p>
+                        <div class='product-q'>
+                            <p>Cantitate in stoc:</p>
+                            <p class="product-quantity"></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="quantity-label">Cantitate: </label>
+                            <div class="input-group">
+                                <div class="input-group-btn">
+                                    <button id="down" class="btn btn-default"><img src="images/minus.png" class="glyphicon minus-sign"></img>
+                                    </button>
+                                </div>
+                                <input type="text" id="myNumber" class="form-control input-number" value="1" />
+                                <div class="input-group-btn">
+                                    <button id="up" class="btn btn-default"><img src="images/plus.png" class="glyphicon glyphicon-minus-sign"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="add-to-cart" class='but success'>Adaugati in cos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="bottom-page">
+
+        <footer>&copy 2019 SunGardern </footer>
+    </div>
+
+    <script src="scripturi/common-cart.js"></script>
+    <script src="scripturi/script-page-viz.js"></script>
+
+</body>
+
+</html>

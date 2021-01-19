@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 90px;
+    background-color: white;
+    border-bottom: 2px solid red;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header a img {
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-header {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font: Courier New;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+
+}
+
+/* Darker background on mouse-over */
+.btn-header:hover {
+    background-color: #f2f2f2;
+}
+
+.btn-header:active {
+    background-color: #f2f2f2;
+    transform: translateY(4px);
+    /* efectul de buton activ */
+}
+
+.btn-header i {
+    color: red;
+}
+
+.containerbttn {
+    float: right;
+    margin: 21px;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-group-btn {
+    width: 15px;
+    height: 20px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Plantagen, sans-serif;
+}
+
+.previous:hover {
+    background-color: #ddd;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px;
+    margin-left: 30px;
+    color: black;
+}
+
+#successMessage,
+#deleteMessage {
+
+    height: 40px;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    border-color: #4CAF50;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Plantagen, sans-serif;
+    color: green;
+
+}
+
+.product-real {
+    height: fit-content;
+    width: 700px;
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 70px;
+}
+
+.input-container {
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+input {
+    outline: none;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.input-visibility {
+    margin-top: 5px;
+}
+
+.title-div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.image-div {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+#image {
+    width: fit-content;
+}
+
+.descr-div {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+textarea#feedback {
+    width: 300px;
+    height: 150px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Plantagen, sans-serif;
+}
+
+.product-title {
+    width: fit-content;
+
+}
+
+.product-price {
+    width: 60px;
+    text-align: center;
+}
+
+.product-quantity {
+    width: 60px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: Plantagen, sans-serif;
+    margin-right: 15px;
+    font-weight: 100;
+}
+
+.buttom-buttons {
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.button-cont {
+
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #4CAF50;
+    color: green;
+    outline: none;
+
+}
+
+#delete-product {
+    margin-right: 60px;
+    outline: none;
+
+}
+
+#delete-product:hover {
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+
+
+
+#update-product:hover {
+    background-color: #4CAF50;
+    color: white;
+    outline: none;
+}
+
+
+#bottom-page {
+	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	color: white;
+	text-align: center;
+	color: black;
+} 
+#bottom-page p {
+	font-size:16px;
+	font-family: Times New Roman;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}

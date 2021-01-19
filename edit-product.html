@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/edit-product.css" />
+    <script src="https://kit.fontawesome.com/23ab363e87.js" crossorigin="anonymous"></script>
+    <title>Editare produs</title>
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="containerbttn">
+            <a href="shopping-cart.html">
+                <button class="btn-header"><i class="fas fa-shopping-cart"></i> Cos cumparaturi</button>
+            </a>
+            <a href="admin.html">
+                <button class="btn-header"><i class="fas fa-users-cog"></i> Pagina Administrare</button>
+            </a>
+        </div>
+    </header>
+    <h1>Pagina editare produs</h1>
+
+
+    <a href="admin.html" class="previous">
+        &laquo; Inapoi la pagina admin
+    </a>
+
+
+
+
+    <div id="product-template" class="product">
+
+        <div class="product-real">
+            <div class="title-div">
+                <p>Titlu produs: </p><input id="product-name" type="text" class="product-title"></input>
+            </div>
+            <div class="image-div"><img src="" class="product-image" />
+                <div class="input-container">
+                    <p>Incarcati o alta poza: </p>
+                    <input type="file" name="myPicture" id="image"></input>
+                </div>
+            </div>
+
+            <div class="descr-div">
+                <p>Descriere produs: </p><textarea id="feedback" name="feedback" class="product-description"></textarea>
+            </div>
+            <div class="input-container">
+                <p>Pret produs: <p><input type="number" class="product-price"></input>
+                        <span class="currency"></span>
+            </div><br>
+
+            <div class="input-container">
+                <p>Cantitate in stoc: </p>
+                <input type="number" class="product-quantity"></p></input>
+            </div><br>
+            <div class="input-container">
+                <p>Invizibil </p><input type="checkbox" class="input-visibility"></input>
+            </div>
+
+            <div class="buttom-buttons">
+                <button id="delete-product" class="button-cont">Sterge produs</button>
+                <button id="update-product" class="button-cont">Salveaza modificarile</button>
+            </div>
+
+            <div id="successMessage"></div>
+            <div id="deleteMessage"></div>
+
+        </div>
+
+
+
+
+        <div id="bottom-page">
+
+            <p>&copy 2019 SunGardern </p>
+        </div>
+
+        <script src="scripturi/edit-product.js"></script>
+</body>
+
+</html>

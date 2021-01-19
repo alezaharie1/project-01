@@ -1,0 +1,204 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+header {
+    height: 90px;
+    background-color: white;
+    border-bottom: 2px solid red;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header a img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-header {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font: Courier New;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+
+}
+
+/* Darker background on mouse-over */
+.btn-header:hover {
+    background-color: #f2f2f2;
+}
+
+.btn-header:active {
+    background-color: #f2f2f2;
+    transform: translateY(4px);
+    /* efectul de buton activ */
+}
+
+.btn-header i {
+    color: red;
+}
+
+.containerbttn {
+    float: right;
+    margin: 21px;
+}
+
+.input-group {
+    display: inline-block;
+	
+}
+
+.input-group-btn {
+    width: 19px;
+    height: 17px;
+    display: inline-block;
+}
+
+.btn-default {
+	background-color:white;
+	border:none;	
+}
+
+.glyphicon {
+	width: 17px;
+	height: 15px;
+}
+#myNumber {
+    width: 25px;
+	border:none;
+	text-align:center;
+	font-size: 17px;
+}
+
+/* css style pentru display pe 2 coloane */
+.product-real {
+    display: flex;
+    width: 70%;
+    font-family: Plantagen, sans-serif;
+    font-weight: bold;
+    line-height: 1.25em;
+    overflow-wrap: break-word;
+    margin-bottom: .5rem;
+    background-color: white;
+}
+
+.col {
+    flex: 1;
+    /* Make elements inside the container behave like table cells */
+    padding: 16px;
+}
+
+/** css style pentru fiecare div/p in parte */
+.product-img {
+    height: 500px;
+}
+
+.product-title {
+    font-size: 2rem;
+    font-family: Plantagen, sans-serif;
+    font-weight: bold;
+    line-height: 1.25em;
+    overflow-wrap: break-word;
+    margin-bottom: 8px;
+}
+
+.product-description {
+    color: #999;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.product-price {
+    font-size: 2.4rem;
+    line-height: 1.25em;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: red;
+}
+.quantity-label{
+	margin-right: 25px;
+}
+
+.product-q {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.form-group {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+/*** css style pentru button add to card */
+.but {
+    margin-top: 60px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.success {
+    border-color: #4CAF50;
+    color: green;
+}
+
+.success:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* css style pentru back button */
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.previous:hover {
+    background-color: #ddd;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px;
+    margin-left: 175px;
+    color: black;
+}
+
+
+#bottom-page {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  color: black;
+}  

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/23ab363e87.js" crossorigin="anonymous"></script>
+
+    <title>Admin</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png"></a>
+
+        <div class="containerbttn">
+            <a href="shopping-cart.html">
+                <button class="btn-header"><i class="fas fa-shopping-cart"></i> Cos cumparaturi</button>
+            </a>
+            <a href="index.html">
+                <button class="btn-header"><i class="fas fa-users-cog"></i> Pagina Client</button>
+            </a>
+        </div>
+    </header>
+    <div id="successMessage"></div>
+    <div id="big-div">
+        <div id="selectare-sortare">
+            <span>Sorteaza dupa:</span>
+            <select class="select-1" name="selectare">
+                <option value="" selected>- - -</option>
+                <option value="sort-price-asc"> Pret >> ascendent </option>
+                <option value="sort-price-desc"> Pret >> descendent </option>
+                <option value="sort-name-asc"> Nume >> ascendent </option>
+                <option value="sort-name-desc"> Nume >> descendent </option>
+
+            </select>
+
+            <div id="divNumarTotal">
+
+                <div id="numberOfPrd">
+                    <p id="numberOfProducts"> </p>
+                </div>
+                <div id="paragrNumber">
+                    <p>de produse</p>
+                </div>
+            </div>
+
+            <a href="add-page.html"><button class="add-button">Adaugare produs</button></a>
+        </div>
+
+        <div id="products">
+            <div id="product-template" class="product hidden">
+                <div class="product-real">
+                    <p class="product-title">
+                        <a class="product-link" href=""></a>
+                    </p>
+                    <img src="" />
+                    <p class="product-description"></p>
+
+                    <p class="product-price"><span class="price"></span> <span class="currency"></span></p>
+                    <input id="" class="product-details" type="button" value="Editare produs" onClick="location.href='edit-product.html?'+this.id;" />
+                </div>
+            </div>
+
+        </div>
+		<div id="bottom-page">
+
+        <p>&copy 2019 SunGardern </p>
+    </div>
+    </div>
+    <div id="content"></div>
+    
+
+    <script src="scripturi/common-script.js"></script>
+    <script src="scripturi/admin.js"></script>
+</body>
+<html>
